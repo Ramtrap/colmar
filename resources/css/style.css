@@ -285,6 +285,10 @@ a,
   min-width: 35%;
 }
 
+#lecture {
+  background-color: #ffedfe;
+}
+
 #orientation .substory-image {
   padding: 2rem 1rem 1rem 1rem;
 }
@@ -314,24 +318,73 @@ a,
 }
 
 .subcontent h4 {
-  font-size: 1.15rem;
+  font-size: 1.4375rem;
   font-weight: bold;
   padding-bottom: 0.5rem;
 }
 
 .subcontent span {
-  font-size: .7rem;
+  font-size: .875rem;
   padding-bottom: 0.5rem;
 }
 
 .subcontent a{
-  font-size: .7rem;
+  font-size: .875rem;
+  font-weight: 600;
   color: #20BADC;
 }
 
 /*  MAIN MEDIA QUERIES  */
 @media only screen and (max-width: 460px) {
+  .main-content {
+    display: none;
+  }
+  .subcontent {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+  .substory {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .substory-image .desktop {
+    display: none;
+  }
+  .substory-image .mobile {
+    display: block;
+  }
+  .substory-image {
+    flex: 1;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .substory-text {
+    padding: 0;
+    align-self: flex-start;
+    padding: 1rem 1rem 0 1rem;
+    line-height: 1.2;
+  }
+  #orientation .substory-image,
+  #campus .substory-image,
+  #lecture .substory-image {
+    padding: 0;
+  }
+  .subcontent h4 {
+    font-size: 2.515625rem;
+  }
 
+  .subcontent span {
+    font-size: 1.53125rem;
+  }
+
+  .subcontent a {
+    font-size: 1.225rem;
+  }
+  .read-more {
+    width: 6rem;
+  }
 }
 
 
