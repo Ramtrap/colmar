@@ -217,13 +217,19 @@ a,
 
 .main {
   display: flex;
-  flex-direction: column;
 }
 
-.main-image {
+.main-content {
+  display: flex;
+  flex-direction: column;
   max-width: 60%;
   min-width: 60%;
   flex: 1;
+}
+.main-image {
+  /*max-width: 60%;
+  min-width: 60%;
+  flex: 1;*/
 }
 
 .main-image-container {
@@ -237,9 +243,9 @@ a,
 }
 
 .main-text {
-  max-width: 60%;
+  /*max-width: 60%;
   min-width: 60%;
-  flex: 1;
+  flex: 1;*/
 }
 
 .main-text-container {
@@ -260,7 +266,67 @@ a,
 .main h5 {
   font-size: .75rem;
   font-weight: 600;
-  text-align: right;
+}
+
+.subcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.substory {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.substory-image {
+  flex: 1;
+  max-width: 35%;
+  min-width: 35%;
+}
+
+#orientation .substory-image {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+#campus .substory-image {
+  padding: 1rem;
+}
+
+#lecture .substory-image {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.substory-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.substory .mobile {
+  display: none;
+}
+
+.substory-text {
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontent h4 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.subcontent span {
+  font-size: .7rem;
+  padding-bottom: 0.5rem;
+}
+
+.subcontent a{
+  font-size: .7rem;
+  color: #20BADC;
 }
 
 /*  MAIN MEDIA QUERIES  */
