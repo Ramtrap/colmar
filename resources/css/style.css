@@ -550,6 +550,20 @@ padding-bottom: 1rem;
 
 /*THESIS MEDIA QUERIES*/
 @media only screen and (max-width: 460px) {
-
+  .thesis-background .desktop {
+    display: none;
+  }
+  .thesis-backround .mobile {
+    display: block;
+  }
+  .thesis-background {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  .thesis-content {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 1rem 0 0 0;
+  }
 }
 /* ------------------------------------------------------------------ */
