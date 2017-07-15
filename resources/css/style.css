@@ -65,7 +65,8 @@ header {
 
 a,
 .logo img,
-.read-more {
+.read-more,
+div .mobile h4 {
   transition: all 0.25s ease-in-out 0.1s;
 }
 
@@ -234,11 +235,6 @@ a,
   min-width: 60%;
   flex: 1;
 }
-.main-image {
-  /*max-width: 60%;
-  min-width: 60%;
-  flex: 1;*/
-}
 
 .main-image-container {
   padding: 2rem 1.5rem 1rem 1.5rem;
@@ -248,12 +244,6 @@ a,
   width: 100%;
   height: auto;
   display: block;
-}
-
-.main-text {
-  /*max-width: 60%;
-  min-width: 60%;
-  flex: 1;*/
 }
 
 .main-text-container {
@@ -397,20 +387,14 @@ h4 {
 
 
 /* LEARNING INFORMATION */
+.learning-background .mobile {
+  display: none;
+}
+
 .learning-background {
   background-color: #ffedfe;
   padding: 2rem;
 }
-
-/*.learning-container-one,
-.learning-container-two {
-  display: flex;
-  justify-content: space-around;
-}
-
-.learning-container-two {
-  padding-top: 1rem;
-}*/
 
 .learning-background h2 {
 text-align: center;
@@ -448,6 +432,30 @@ padding-bottom: 1rem;
 
 /*  MAIN MEDIA QUERIES  */
 @media only screen and (max-width: 460px) {
-
+  .learning-background {
+    background-color: white;
+  }
+  .learning-background .desktop {
+    display: none;
+  }
+  .learning-background .mobile {
+    display: block;
+  }
+  .learning-button {
+    background-color: #fd9af8;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  div .mobile h4 {
+    border-radius: 0.75rem;
+  }
+  div .mobile h4:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #F905ED;
+    padding: 0.75rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #454145;
+  }
 }
 /* ------------------------------------------------------------------ */
