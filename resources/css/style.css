@@ -581,16 +581,13 @@ footer {
 }
 
 .terms {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 
 .legal ul {
   display: flex;
 }
 
-.legal ul li {
-  /*padding: 0 1rem;*/
-}
 
 .legal ul li a:hover {
   color: #f905ed;
@@ -602,4 +599,13 @@ footer {
   font-weight: bold;
 }
 
+
+/*FOOTER MEDIA QUERIES*/
+@media only screen and (max-width: 460px) {
+  footer {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
 /* ------------------------------------------------------------------ */
