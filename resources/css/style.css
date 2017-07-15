@@ -458,4 +458,98 @@ padding-bottom: 1rem;
     box-shadow: 4px 4px 4px #454145;
   }
 }
+
+
+/*THESIS INFORMATION*/
+.thesis-background {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis-background h2 {
+padding-bottom: 1rem;
+}
+
+.thesis-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  min-width: 60%;
+  flex: 1;
+  padding: 1rem;
+}
+
+.thesis-video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-text-container {
+  padding-top: 1.5rem;
+  text-align: left;
+}
+
+.thesis h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.video-text-container .quote {
+  font-family: 'Cedarville Cursive', cursive;
+  line-height: 1.2;
+  font-size: .9rem;
+}
+
+.thesis-subcontent {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.thesis-substory {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.thesis-substory-image {
+  flex-1;
+  max-width: 35%;
+  min-width: 35%;
+}
+
+.thesis-substory-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thesis-substory-text {
+  text-align: left;
+  padding: 1rem;
+}
+
+.thesis-substory-text span {
+  font-size: 0.90rem;
+}
+
+.thesis-substory-styling {
+  padding: 1rem 0 1rem 1rem;
+}
+
+#fisma-styling {
+  background-color: #ffedfe;
+}
+
+/*THESIS MEDIA QUERIES*/
+@media only screen and (max-width: 460px) {
+
+}
 /* ------------------------------------------------------------------ */
