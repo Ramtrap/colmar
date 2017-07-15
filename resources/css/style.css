@@ -566,4 +566,40 @@ padding-bottom: 1rem;
     padding: 1rem 0 0 0;
   }
 }
+
+/*FOOTER INFORMATION*/
+footer {
+  background-color: #ffedfe;
+  display: flex;
+  justify-content: space-between;
+  font-size: .75rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.terms {
+  padding-right: 1rem;
+}
+
+.legal ul {
+  display: flex;
+}
+
+.legal ul li {
+  /*padding: 0 1rem;*/
+}
+
+.legal ul li a:hover {
+  color: #f905ed;
+  font-weight: bold;
+}
+
+.legal ul li a:visited {
+  color: midnightblue;
+  font-weight: bold;
+}
+
 /* ------------------------------------------------------------------ */
